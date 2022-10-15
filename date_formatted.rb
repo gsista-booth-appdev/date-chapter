@@ -4,6 +4,6 @@
 
 require "date"
 
-todays_date = Date.today
+todays_date = Date.new(2020, 7, 1)
 
-p "The year is: " + todays_date.year.to_s + ", the calendar day is: " + todays_date.month.to_s + ", and the month is: " + todays_date.day.to_s + "."
+p "The year is: " + todays_date.year.to_s + ", the calendar day is: " + todays_date.month.to_s + ", and the month is: " + todays_date.day.to_s
